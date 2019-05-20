@@ -1,0 +1,6 @@
+index.php;Home Page
+staff.php;Staff
+servers.php;Our Servers
+rules.php;Rules
+donations.php;Donations
+contacts.php;Contact Us
