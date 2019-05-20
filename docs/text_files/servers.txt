@@ -1,6 +1,0 @@
-Ark;ark.jpg;37777
-World of Warcraft;wow.jpg;8093
-Minecraft;minecraft.jpg;25565
-Unturned;unturned.png;33767
-Garry's Mod;garrysmod.jpg;27050
-Chivalry;chivalry.jpg;27015
