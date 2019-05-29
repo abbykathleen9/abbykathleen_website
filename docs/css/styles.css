@@ -57,9 +57,9 @@ footer h1 {
     }
 
 
-    /*Logo (S&D Wholesale Logo)*/
+    /*Logo (Abby Kathleen)*/
     .logo {
-        width: 30%;
+        width: 40%;
     }
 
     .logo h1 {
@@ -78,7 +78,7 @@ footer h1 {
 
     /*Title*/
     .title {
-        width: 50%;
+        width: 45%;
     }
 
     .pageTitle {
@@ -91,7 +91,7 @@ footer h1 {
 
     /*ContactUs div*/
     .contactUs_div {
-        width: 20%;
+        width: 15%;
     }
 
     .contactUs {
@@ -333,7 +333,7 @@ footer h1 {
     /*CLASSES*/
 
         .header {
-            height: 160px;
+            height: 250px;
         }
 
         .title {
