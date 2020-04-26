@@ -1,8 +1,0 @@
-https://fonts.googleapis.com/css?family=Patua+One;Patua One
-https://fonts.googleapis.com/css?family=Rye;Rye
-https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap;Baloo Bhai
-https://fonts.googleapis.com/css?family=Lato&display=swap;Lato
-https://fonts.googleapis.com/css?family=Kodchasan&display=swap;Kodchasan
-https://fonts.googleapis.com/css?family=Lobster&display=swap;Lobster
-https://fonts.googleapis.com/css?family=Indie+Flower&display=swap;Indie Flower
-https://fonts.googleapis.com/css?family=Pacifico&display=swap;Pacifico
