@@ -85,7 +85,7 @@ nav {
         list-style: none;
         margin: 0 auto;
         background-color: white;
-        width: 550px;
+        width: auto;
         height: 50px;
         position: absolute;
         right: 30px;
@@ -627,5 +627,312 @@ footer {
 }
 
 
+$laptop: 1650px;
+$tablet: 800px;
+$phone: 500;
+
+// LAPTOP SIZED SCREEN
+@media (max-width: 1600px) {
+    
+    main {
+        background-color: red;
+    }
 
 
+    #introduction {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+        padding-left: 5%;
+        padding-bottom: 50px;
+    }
+
+    #portfolio {
+        article {
+            width: 100%;
+            padding-bottom: 100px;
+
+            .article_title {
+                font-size: 3em;
+                width: auto;
+            }
+
+            p {
+                font-size: 1.5em;
+            }
+        }
+    }
+
+    .image_container {
+        
+        width: 100%;
+
+        .center {
+
+            #width_50 {
+                width: 70%;
+                height: auto;
+            }
+            
+            #width_60 {
+                width: 80%;
+                height: auto;
+            }
+
+
+            div.full {
+                width: 100%;
+                height: auto;
+                padding: 50px 0;
+                img {
+                    width: 80%;
+                    height: auto;
+                }
+            }
+
+            div.half {
+                width: 100%;
+                height: auto;
+                padding: 50px 0;
+
+                img {
+                    height: auto;
+                    width: 80%;
+                }
+            }
+
+            div.half_50_50 {
+                width: 100%;
+                height: auto;
+                padding: 50px 0;
+
+                img {
+                    width: 80%;
+                    height: auto;
+                }
+            }
+
+            div.half_75_50 {
+                width: 100%;
+                height: auto;
+                padding: 50px 0;
+
+                img {
+                    width: 50%;
+                    height: auto;
+                }
+            }
+
+            div.half_75_75 {
+                width: 100%;
+                height: auto;
+                padding: 50px 0;
+
+                img {
+                    width: 50%;
+                    height: auto;
+                }
+            }
+
+            div.half_auto_50 {
+                width: 100%;
+                height: auto;
+                padding: 50px 0;
+
+                img {
+                    width: 80%;
+                    height: auto;
+                }
+            }
+
+            div.half_auto_100 {
+                width: 100%;
+                height: auto;
+                padding: 50px 0;
+
+                img {
+                    width: 55%;
+                    height: auto;
+                }
+            }
+
+            div.width_third {
+                width: 100%;
+                height: auto;
+                padding: 50px 0;
+                img {
+                    width: 80%;
+                    height: auto;
+                }
+            }
+
+            div.width_third_50 {
+                width: 100%;
+                height: auto;
+                padding: 50px 0;
+                img {
+                    width: 50%;
+                    height: auto;
+                }
+            }
+
+            div.width_third_75 {
+                width: 100%;
+                height: auto;
+                padding: 50px 0;
+                img {
+                    width: 45%;
+                    height: auto;
+                }
+            }
+
+            div.quarter_auto_50 {
+                width: 100%;
+                height: auto;
+                padding: 50px 0;
+                img {
+                    width: 50%;
+                    height: auto;
+                }
+            }
+
+        }
+        
+        
+    }
+
+    .picture_full_quarter {
+        width: 100%;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .half {
+        display: block;
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+
+    #contactMe {
+        .contact_info {
+            padding: 0;
+            margin: 0;
+
+            padding-left: 30%;
+        }
+    }
+
+    .info_card {
+        .card_title {
+            width: auto;
+            padding: 0;
+            margin-left: 5%;
+            padding-right: 3%;
+            font-size: 1.1em;
+        }
+
+        p {
+            margin-left: 5%;
+            padding: 0;
+            margin: 0;
+            width: 50%;
+        }
+    }
+    
+}
+
+
+
+// TABLET SIZED SCREEN
+@media (max-width: 1000px) {
+    main {
+        background-color: blue;
+    }
+
+    #portfolio {
+        article {
+            width: 100%;
+            padding-bottom: 100px;
+
+            .article_title {
+                font-size: 3.5em;
+                width: auto;
+                padding-left: 10%;
+            }
+
+            p {
+                font-size: 1.75em;
+                padding: 3% 10%;
+            }
+        }
+    }
+
+    .info_card {
+        .card_title {
+            width: 40%;
+            padding: 0;
+            margin-left: 5%;
+            padding-right: 3%;
+            font-size: 1.25em;
+        }
+
+        p {
+            // padding-left: 5px;
+            padding: 0;
+            margin: 0;
+            width: 50%;
+        }
+    }
+
+    #contactMe {
+        .contact_info {
+            padding: 0;
+            margin: 0;
+
+            padding-left: 20%;
+        }
+    }
+}
+
+
+// PHONE SIZED SCREENS 
+@media (max-width: 915px) {
+    
+    main {
+        background-color: green;
+    }
+
+    nav {
+        margin: 0 auto;
+        ul {
+            width: 90%;
+            margin: 0;
+        }
+    }
+
+    #logo {
+        display: none;
+    }
+
+    .info_card {
+        .card_title {
+            width: 100%;
+            margin-left: 5%;
+            padding-right: 3%;
+            font-size: 1.5em;
+            padding-bottom: 50px;
+        }
+
+        p {
+            width: 100%;
+            padding: 3%;
+            font-size: 1.35em;
+        }
+    }
+}
