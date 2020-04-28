@@ -708,17 +708,16 @@ footer .contact_info_home p {
     padding-left: 30%;
   }
   .info_card .card_title {
-    width: auto;
-    padding: 0;
+    width: 100%;
     margin-left: 5%;
     padding-right: 3%;
-    font-size: 1.1em;
+    font-size: 2em;
+    padding-bottom: 50px;
   }
   .info_card p {
-    margin-left: 5%;
-    padding: 0;
-    margin: 0;
-    width: 50%;
+    width: 100%;
+    padding: 3%;
+    font-size: 1.7em;
   }
 }
 
@@ -738,18 +737,6 @@ footer .contact_info_home p {
   #portfolio article p {
     font-size: 1.75em;
     padding: 3% 10%;
-  }
-  .info_card .card_title {
-    width: 40%;
-    padding: 0;
-    margin-left: 5%;
-    padding-right: 3%;
-    font-size: 1.25em;
-  }
-  .info_card p {
-    padding: 0;
-    margin: 0;
-    width: 50%;
   }
   #contactMe .contact_info {
     padding: 0;
@@ -771,18 +758,6 @@ footer .contact_info_home p {
   }
   #logo {
     display: none;
-  }
-  .info_card .card_title {
-    width: 100%;
-    margin-left: 5%;
-    padding-right: 3%;
-    font-size: 1.5em;
-    padding-bottom: 50px;
-  }
-  .info_card p {
-    width: 100%;
-    padding: 3%;
-    font-size: 1.35em;
   }
 }
 /*# sourceMappingURL=styles.css.map */
