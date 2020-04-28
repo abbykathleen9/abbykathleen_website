@@ -557,9 +557,6 @@ footer .contact_info_home p {
 }
 
 @media (max-width: 1600px) {
-  main {
-    background-color: red;
-  }
   #introduction {
     width: 90%;
     margin: 0;
@@ -722,9 +719,6 @@ footer .contact_info_home p {
 }
 
 @media (max-width: 1000px) {
-  main {
-    background-color: blue;
-  }
   #portfolio article {
     width: 100%;
     padding-bottom: 100px;
@@ -746,9 +740,6 @@ footer .contact_info_home p {
 }
 
 @media (max-width: 915px) {
-  main {
-    background-color: green;
-  }
   nav {
     margin: 0 auto;
   }
