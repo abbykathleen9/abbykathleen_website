@@ -547,6 +547,19 @@ main {
             width: 75%;
         }
 
+
+        .custom_half {
+            padding: 50px 0;
+            height: 130%;
+            width: 50%;
+            float: left;
+            
+            img {
+                max-width: 90%;
+                height: 90%;
+            }
+
+        }
         
 
     }

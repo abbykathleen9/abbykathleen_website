@@ -471,6 +471,18 @@ main {
   width: 75%;
 }
 
+.image_container .center .custom_half {
+  padding: 50px 0;
+  height: 130%;
+  width: 50%;
+  float: left;
+}
+
+.image_container .center .custom_half img {
+  max-width: 90%;
+  height: 90%;
+}
+
 .picture_full_quarter {
   height: auto;
 }
