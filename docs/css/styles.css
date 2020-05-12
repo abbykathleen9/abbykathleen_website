@@ -36,7 +36,7 @@ img:hover {
 }
 
 #logo {
-  background-color: #6b1518;
+  background-color: #1d4431;
   width: 300px;
   height: 50px;
   text-align: center;
@@ -55,7 +55,7 @@ img:hover {
 }
 
 nav {
-  background-color: #FFE0E3;
+  background-color: #3e885e;
   height: 100px;
   border-radius: 10px;
   border-top-left-radius: 0px;
@@ -81,7 +81,7 @@ nav ul {
 }
 
 nav ul .current a {
-  color: #E6B8BB;
+  color: #3e885e;
 }
 
 nav ul li {
@@ -96,11 +96,11 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #6B1518;
+  color: #1d4431;
 }
 
 nav ul li ul {
-  background-color: #FFE0E3;
+  background-color: #3e885e;
   height: auto;
   width: 250px;
   position: absolute;
@@ -113,23 +113,23 @@ nav ul li ul li a {
 }
 
 nav ul li ul li:hover {
-  color: #E6B8BB;
+  color: white;
 }
 
 nav ul li:hover a {
-  color: #E6B8BB;
+  color: #3e885e;
 }
 
 nav ul li:hover .dropdown a {
-  color: #6B1518;
+  color: white;
 }
 
 nav ul li:hover .dropdown li:hover a {
-  color: #E6B8BB;
+  color: black;
 }
 
 nav ul li:hover .current a {
-  color: #E6B8BB;
+  color: black;
 }
 
 nav ul li:hover .dropdown {
@@ -160,13 +160,13 @@ main {
 
 #introduction h3 {
   font-family: poppins;
-  color: #6b1518;
+  color: #1d4431;
   font-size: 2.25em;
   padding-bottom: 30px;
 }
 
 #introduction p {
-  color: #DFA3A6;
+  color: #3e885e;
   font-family: poppins;
   font-size: 1.2em;
   font-weight: bold;
@@ -177,7 +177,7 @@ main {
   margin: 0 auto;
   font-family: poppins;
   font-weight: bolder;
-  color: #6b1518;
+  color: #1d4431;
   font-size: 5em;
   text-align: center;
 }
@@ -204,7 +204,7 @@ main {
   text-align: left;
   padding-left: 25%;
   padding-bottom: 20px;
-  color: #6b1518;
+  color: #1d4431;
   font-size: 2.5em;
   font-family: poppins;
   font-weight: bold;
@@ -213,11 +213,20 @@ main {
 #portfolio article p {
   height: auto;
   padding: 10px 25%;
-  color: #DFA3A6;
+  color: #3e885e;
   font-family: poppins;
   font-size: 1.2em;
   letter-spacing: 1px;
   font-weight: lighter;
+}
+
+#portfolio article p a {
+  text-decoration: none;
+  color: #3e885e;
+}
+
+#portfolio article p a:hover {
+  color: #1d4431;
 }
 
 .info_card {
@@ -244,7 +253,7 @@ main {
 .info_card .card_title h3 {
   font-family: poppins;
   font-weight: lighter;
-  color: #6b1518;
+  color: #1d4431;
   font-size: 1.4em;
 }
 
@@ -255,7 +264,7 @@ main {
 .info_card p {
   width: 30%;
   font-family: poppins;
-  color: #DFA3A6;
+  color: #3e885e;
   font-size: 1.15em;
 }
 
@@ -270,7 +279,7 @@ main {
 }
 
 #contactMe .contact_title {
-  color: #6b1518;
+  color: #1d4431;
   font-family: poppins;
   font-size: 2.75em;
 }
@@ -281,7 +290,7 @@ main {
 }
 
 #contactMe .contact_info p {
-  color: #DFA3A6;
+  color: #3e885e;
   font-family: poppins;
   text-align: left;
   font-size: 1.5em;
@@ -290,11 +299,11 @@ main {
 
 #contactMe .contact_info p a {
   text-decoration: none;
-  color: #DFA3A6;
+  color: #3e885e;
 }
 
 #contactMe .contact_info p a:hover {
-  color: #6b1518;
+  color: #1d4431;
 }
 
 .image_container {
@@ -317,6 +326,17 @@ main {
 .image_container .center .full img {
   max-width: 90%;
   height: 80%;
+}
+
+.image_container .center .full_auto {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.image_container .center .full_auto img {
+  max-width: 90%;
+  height: auto;
 }
 
 .image_container .center .half {
@@ -462,7 +482,7 @@ main {
 }
 
 footer {
-  background-color: #FFE0E3;
+  background-color: #3e885e;
   height: auto;
   position: relative;
   bottom: 0;
@@ -476,7 +496,7 @@ footer {
 
 footer .collaborate {
   width: 100%;
-  background-color: #DFA3A6;
+  background-color: #1d4431;
   height: 100px;
 }
 
@@ -526,12 +546,12 @@ footer .socialMedia ul li a {
   position: relative;
   bottom: 12px;
   text-decoration: none;
-  color: #6b1518;
+  color: #3e885e;
   letter-spacing: 1px;
 }
 
 footer .socialMedia ul li:hover {
-  background-color: #DFA3A6;
+  background-color: #1d4431;
 }
 
 footer .socialMedia ul li:hover a {
@@ -553,7 +573,7 @@ footer .contact_info_home p {
           justify-content: center;
   font-size: 1.3em;
   font-family: 'FuturaLT';
-  color: #6b1518;
+  color: white;
 }
 
 @media (max-width: 1600px) {
