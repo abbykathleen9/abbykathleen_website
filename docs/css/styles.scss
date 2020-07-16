@@ -9,8 +9,11 @@ $two: rgb(236, 231, 183);
 $three: rgb(199, 67, 33);
 $four: rgb(151, 35, 35);
 $five: rgb(78, 16, 60);
-$six: rgb(62, 136, 94);
-$seven: rgb(29, 68, 49);
+// $six: rgb(62, 136, 94);
+// $seven: rgb(29, 68, 49);
+$seven: rgb(151, 35, 35);
+$six: rgb(199, 67, 33);
+
 $eight: black;
 
 
@@ -72,7 +75,7 @@ img:hover {
     
     p {
         color: white;
-        font-family: 'PlayfairDisplay';
+        font-family: 'poppins';
         font-size: 1.5em;
         position: relative;
         top: 5px;
@@ -232,9 +235,6 @@ main {
         color: $seven;
         font-size: 5em;
         text-align: center;
-        
-        
-
     }
 
     article {
@@ -650,6 +650,8 @@ footer {
                     color: white;
                 }
             }
+
+
         }
 
     }
@@ -666,6 +668,15 @@ footer {
             font-size: 1.3em;
             font-family: 'FuturaLT';
             color: $one;
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: $seven;
+            }
         }
     }
 }

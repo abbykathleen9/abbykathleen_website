@@ -36,7 +36,7 @@ img:hover {
 }
 
 #logo {
-  background-color: #1d4431;
+  background-color: #972323;
   width: 300px;
   height: 50px;
   text-align: center;
@@ -48,14 +48,14 @@ img:hover {
 
 #logo p {
   color: white;
-  font-family: 'PlayfairDisplay';
+  font-family: 'poppins';
   font-size: 1.5em;
   position: relative;
   top: 5px;
 }
 
 nav {
-  background-color: #3e885e;
+  background-color: #c74321;
   height: 100px;
   border-radius: 10px;
   border-top-left-radius: 0px;
@@ -81,7 +81,7 @@ nav ul {
 }
 
 nav ul .current a {
-  color: #3e885e;
+  color: #c74321;
 }
 
 nav ul li {
@@ -96,11 +96,11 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #1d4431;
+  color: #972323;
 }
 
 nav ul li ul {
-  background-color: #3e885e;
+  background-color: #c74321;
   height: auto;
   width: 250px;
   position: absolute;
@@ -117,7 +117,7 @@ nav ul li ul li:hover {
 }
 
 nav ul li:hover a {
-  color: #3e885e;
+  color: #c74321;
 }
 
 nav ul li:hover .dropdown a {
@@ -160,13 +160,13 @@ main {
 
 #introduction h3 {
   font-family: poppins;
-  color: #1d4431;
+  color: #972323;
   font-size: 2.25em;
   padding-bottom: 30px;
 }
 
 #introduction p {
-  color: #3e885e;
+  color: #c74321;
   font-family: poppins;
   font-size: 1.2em;
   font-weight: bold;
@@ -177,7 +177,7 @@ main {
   margin: 0 auto;
   font-family: poppins;
   font-weight: bolder;
-  color: #1d4431;
+  color: #972323;
   font-size: 5em;
   text-align: center;
 }
@@ -204,7 +204,7 @@ main {
   text-align: left;
   padding-left: 25%;
   padding-bottom: 20px;
-  color: #1d4431;
+  color: #972323;
   font-size: 2.5em;
   font-family: poppins;
   font-weight: bold;
@@ -213,7 +213,7 @@ main {
 #portfolio article p {
   height: auto;
   padding: 10px 25%;
-  color: #3e885e;
+  color: #c74321;
   font-family: poppins;
   font-size: 1.2em;
   letter-spacing: 1px;
@@ -222,11 +222,11 @@ main {
 
 #portfolio article p a {
   text-decoration: none;
-  color: #3e885e;
+  color: #c74321;
 }
 
 #portfolio article p a:hover {
-  color: #1d4431;
+  color: #972323;
 }
 
 .info_card {
@@ -253,7 +253,7 @@ main {
 .info_card .card_title h3 {
   font-family: poppins;
   font-weight: lighter;
-  color: #1d4431;
+  color: #972323;
   font-size: 1.4em;
 }
 
@@ -264,7 +264,7 @@ main {
 .info_card p {
   width: 30%;
   font-family: poppins;
-  color: #3e885e;
+  color: #c74321;
   font-size: 1.15em;
 }
 
@@ -279,7 +279,7 @@ main {
 }
 
 #contactMe .contact_title {
-  color: #1d4431;
+  color: #972323;
   font-family: poppins;
   font-size: 2.75em;
 }
@@ -290,7 +290,7 @@ main {
 }
 
 #contactMe .contact_info p {
-  color: #3e885e;
+  color: #c74321;
   font-family: poppins;
   text-align: left;
   font-size: 1.5em;
@@ -299,11 +299,11 @@ main {
 
 #contactMe .contact_info p a {
   text-decoration: none;
-  color: #3e885e;
+  color: #c74321;
 }
 
 #contactMe .contact_info p a:hover {
-  color: #1d4431;
+  color: #972323;
 }
 
 .image_container {
@@ -495,7 +495,7 @@ main {
 }
 
 footer {
-  background-color: #3e885e;
+  background-color: #c74321;
   height: auto;
   position: relative;
   bottom: 0;
@@ -509,7 +509,7 @@ footer {
 
 footer .collaborate {
   width: 100%;
-  background-color: #1d4431;
+  background-color: #972323;
   height: 100px;
 }
 
@@ -559,12 +559,12 @@ footer .socialMedia ul li a {
   position: relative;
   bottom: 12px;
   text-decoration: none;
-  color: #3e885e;
+  color: #c74321;
   letter-spacing: 1px;
 }
 
 footer .socialMedia ul li:hover {
-  background-color: #1d4431;
+  background-color: #972323;
 }
 
 footer .socialMedia ul li:hover a {
@@ -587,6 +587,15 @@ footer .contact_info_home p {
   font-size: 1.3em;
   font-family: 'FuturaLT';
   color: white;
+}
+
+footer .contact_info_home p a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .contact_info_home p a:hover {
+  color: #972323;
 }
 
 @media (max-width: 1600px) {
