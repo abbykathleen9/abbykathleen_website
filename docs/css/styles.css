@@ -336,6 +336,7 @@ main {
 }
 
 .image_container .center .full_auto img {
+  padding: 40px 0;
   max-width: 90%;
   height: auto;
 }
