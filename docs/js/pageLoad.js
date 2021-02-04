@@ -1,10 +1,6 @@
 $().ready(function () {
 
 
-    
-
-
-
     //IMPORT FOOTER
     $.ajax({
         type: "GET",
