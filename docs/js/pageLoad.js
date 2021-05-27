@@ -10,7 +10,11 @@ $().ready(function () {
             $("head").append(text);
         }
     })
-    $("footer").load("./template/footer.html");
+    $("footer").load("./template/footer.html", function() {
+        var year = new Date().getFullYear();
+        $(".currentYear").html(year);
+     });
+    
     $("nav").load("./template/nav.html", function () {
         
         var url = window.location.pathname;
