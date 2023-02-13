@@ -151,6 +151,17 @@ main {
   padding-top: 200px;
 }
 
+#pdf_link {
+  font-family: "poppins";
+  font-size: 1.5em;
+  text-decoration: none;
+  color: teal;
+  text-align: left;
+  margin-left: 25%;
+  width: 100%;
+  padding-top: 25px;
+}
+
 #introduction {
   width: 50%;
   height: auto;
@@ -614,6 +625,10 @@ footer .contact_info_home p a:hover {
 }
 
 @media (max-width: 1600px) {
+  #pdf_link {
+    margin-left: 5%;
+    padding-top: 0;
+  }
   #introduction {
     width: 90%;
     margin: 0;
